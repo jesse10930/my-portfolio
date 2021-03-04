@@ -4,4 +4,4 @@
 * Functionality with JS
 * Deployed to Netlify
 
-(codebyronda)[https://www.codebyronda.com]
+[codebyronda](https://www.codebyronda.com)
