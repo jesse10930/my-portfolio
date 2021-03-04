@@ -3,3 +3,5 @@
 * Styled with CSS and Sass
 * Functionality with JS
 * Deployed to Netlify
+
+(codebyronda)[https://www.codebyronda.com]
