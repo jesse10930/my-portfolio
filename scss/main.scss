@@ -74,7 +74,7 @@ img {
 #header {
   // Header Home Page
   &-home {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    background: linear-gradient(rgba(124, 89, 89, 0.2), rgba(0, 0, 0, 0.2)),
       $bg-image no-repeat center right / cover;
     background-position-y: 40%;
     height: 100vh;
@@ -273,6 +273,10 @@ img {
       flex-direction: row;
       justify-content: space-around;
       text-align: center;
+
+      .phone .phone-no a {
+        color: #fff;
+      }
     }
 
     .contact-link {

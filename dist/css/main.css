@@ -211,7 +211,7 @@ img {
       border-color: #ffbc00; }
 
 #header-home {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/road2.jpeg") no-repeat center right/cover;
+  background: linear-gradient(rgba(124, 89, 89, 0.2), rgba(0, 0, 0, 0.2)), url("../img/road2.jpeg") no-repeat center right/cover;
   background-position-y: 40%;
   height: 100vh;
   color: #fff; }
@@ -339,6 +339,8 @@ img {
     flex-direction: row;
     justify-content: space-around;
     text-align: center; }
+    #contact-b .contact-info .phone .phone-no a {
+      color: #fff; }
   #contact-b .contact-link {
     color: #fff; }
 
