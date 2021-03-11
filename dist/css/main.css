@@ -93,12 +93,14 @@ a[class^='btn-']:hover {
 .items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3); }
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  grid-gap: 7px; }
 
 .item {
   position: relative;
   background: #ffbc00;
-  overflow: hidden; }
+  overflow: hidden;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3); }
   .item::after {
     content: '';
     position: absolute;
@@ -339,7 +341,7 @@ img {
     flex-direction: row;
     justify-content: space-around;
     text-align: center; }
-    #contact-b .contact-info .phone .phone-no a {
+    #contact-b .contact-info #phone #phone-no a {
       color: #fff; }
   #contact-b .contact-link {
     color: #fff; }

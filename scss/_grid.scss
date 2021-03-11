@@ -2,12 +2,14 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  grid-gap: 7px;
 }
 
 .item {
   position: relative;
   background: $main-color;
   overflow: hidden;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
 
   // Pseudo element for overlay
   &::after {
