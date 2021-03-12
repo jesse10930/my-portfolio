@@ -52,12 +52,12 @@ class TypeWriter {
 // Init On DOM Load
 document.addEventListener('DOMContentLoaded', init);
 
-// Init App
+// Define init function
 function init() {
   const txtElement = document.querySelector('.txt-type');
   const words = JSON.parse(txtElement.getAttribute('data-words'));
   const wait = txtElement.getAttribute('data-wait');
 
-  // Init Typewriter
+  // Init Typewriter class
   new TypeWriter(txtElement, words, wait);
 }

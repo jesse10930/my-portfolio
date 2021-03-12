@@ -346,11 +346,17 @@ img {
   #contact-b .contact-link {
     color: #fff; }
 
+#map-container {
+  width: 60%;
+  margin-left: 20%; }
+
 @media (max-width: 800px) {
   #about-a .about-info .bio-image {
     height: 180px; }
   #contact-a .text-fields {
-    grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; } }
+    grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
+  #map-container {
+    display: none; } }
 
 @media (max-width: 500px) {
   #logo {

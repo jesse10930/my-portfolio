@@ -263,6 +263,7 @@ img {
       width: 35%;
     }
   }
+
   &-b {
     width: 100%;
     color: #fff;
@@ -283,6 +284,11 @@ img {
       color: #fff;
     }
   }
+}
+
+#map-container {
+  width: 60%;
+  margin-left: 20%;
 }
 
 // Media queries
