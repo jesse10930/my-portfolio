@@ -51,6 +51,9 @@ a[class^='btn-']:hover {
 .text-center {
   text-align: center; }
 
+.bio-paragraph {
+  font-size: 1.1rem; }
+
 .my-1 {
   margin: 1rem 0; }
 
@@ -386,17 +389,19 @@ img {
       background-color: #f4f4f4; }
   #work-a .items {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    grid-gap: 25px; }
     #work-a .items .item {
       background: none; }
       #work-a .items .item .item-image {
         opacity: 0.7; }
       #work-a .items .item .item-text {
         opacity: 1;
-        transform: translateY(0);
-        border-bottom: solid #333 5px; }
+        transform: translateY(0); }
         #work-a .items .item .item-text .item-text-wrap {
-          background-color: #ccc; }
+          background-color: #ffbc00;
+          opacity: 0.92;
+          line-height: 1.2; }
   #work-b {
     padding: 0 0 20px 0;
     margin: 0; }

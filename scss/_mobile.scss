@@ -78,6 +78,7 @@
       .items {
         display: flex;
         flex-direction: column;
+        grid-gap: 25px;
         .item {
           background: none;
           .item-image {
@@ -86,10 +87,12 @@
           .item-text {
             opacity: 1;
             transform: translateY(0);
-            border-bottom: solid $dark-color 5px;
+            // border-bottom: solid $dark-color 5px;
 
             .item-text-wrap {
-              background-color: $medium-color;
+              background-color: $main-color;
+              opacity: 0.92;
+              line-height: 1.2;
             }
           }
         }
