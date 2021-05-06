@@ -148,10 +148,9 @@
       flex-direction: column;
       height: 5rem;
 
-      .social {
-        .fa-code-branch {
-          display: none;
-        }
+      .social .fab {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
       }
     }
   }

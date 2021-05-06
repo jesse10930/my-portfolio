@@ -435,5 +435,6 @@ img {
     #main-footer .footer-content {
       flex-direction: column;
       height: 5rem; }
-      #main-footer .footer-content .social .fa-code-branch {
-        display: none; } }
+      #main-footer .footer-content .social .fab {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem; } }
