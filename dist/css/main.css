@@ -4,6 +4,15 @@
   margin: auto;
   overflow: hidden; }
 
+.header-container {
+  max-width: 1280px;
+  padding: 0 0.5rem;
+  margin: auto;
+  overflow: hidden; }
+
+.header-home-container {
+  padding-right: 1rem; }
+
 .btn-main, .btn-light, .btn-dark {
   display: inline-block;
   padding: 0.8rem 2rem;
@@ -247,7 +256,8 @@ img {
     display: flex;
     justify-content: space-between;
     height: 5rem;
-    align-items: center; }
+    align-items: center;
+    padding: 0 1.5rem; }
     #main-footer .footer-content .social .fab {
       margin-right: 1rem;
       border: 2px solid #fff;

@@ -5,6 +5,17 @@
   overflow: hidden;
 }
 
+.header-container {
+  max-width: $website-width;
+  padding: 0 0.5rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+.header-home-container {
+  padding-right: 1rem;
+}
+
 // Buttons
 %btn-shared {
   display: inline-block;
