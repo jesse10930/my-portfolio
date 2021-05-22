@@ -105,8 +105,9 @@ a[class^='btn-']:hover {
 .items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
-  grid-gap: 7px; }
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  grid-gap: 7px;
+  margin-bottom: 15px; }
 
 .item {
   position: relative;
@@ -207,8 +208,7 @@ img {
 
 #main-nav {
   display: flex;
-  justify-content: flex-end;
-  padding-top: 1rem; }
+  justify-content: flex-end; }
   #main-nav ul {
     display: flex; }
   #main-nav li {
@@ -240,13 +240,13 @@ img {
 
 #header-inner {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/road2.jpeg") no-repeat 20% 15%/cover;
-  height: 6rem;
+  height: 4rem;
   border-bottom: 3px solid #ffbc00; }
 
 #main-footer {
   background-color: #333;
   color: #fff;
-  height: 5rem;
+  height: 4rem;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -255,7 +255,7 @@ img {
   #main-footer .footer-content {
     display: flex;
     justify-content: space-between;
-    height: 5rem;
+    height: 4rem;
     align-items: center;
     padding: 0 1.5rem; }
     #main-footer .footer-content .social .fab {
