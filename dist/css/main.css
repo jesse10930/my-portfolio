@@ -366,12 +366,32 @@ img {
 @media (max-width: 800px) {
   #about-a .about-info .bio-image {
     height: 180px; }
+  #work-a .item {
+    background: none; }
+    #work-a .item .item-image {
+      opacity: 0.15; }
+    #work-a .item .item-text {
+      opacity: 1;
+      transform: translateY(0);
+      top: 10%; }
+      #work-a .item .item-text .item-text-wrap {
+        background-color: none;
+        opacity: 0.95;
+        line-height: 1.2; }
+        #work-a .item .item-text .item-text-wrap .item-text-category {
+          display: none; }
+        #work-a .item .item-text .item-text-wrap .item-text-title {
+          font-size: 1.3rem; }
   #contact-a .text-fields {
     grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
+  #contact-b {
+    padding: 6rem 0; }
   #map-container {
     display: none; } }
 
 @media (max-width: 500px) {
+  .git-icon {
+    display: none; }
   #logo {
     display: none; }
   #main-nav {
@@ -404,13 +424,14 @@ img {
     #work-a .items .item {
       background: none; }
       #work-a .items .item .item-image {
-        opacity: 0.7; }
+        opacity: 0.15; }
       #work-a .items .item .item-text {
         opacity: 1;
-        transform: translateY(0); }
+        transform: translateY(0);
+        top: 10%; }
         #work-a .items .item .item-text .item-text-wrap {
-          background-color: #ffbc00;
-          opacity: 0.92;
+          background-color: none;
+          opacity: 0.95;
           line-height: 1.2; }
   #work-b {
     padding: 0 0 20px 0;
