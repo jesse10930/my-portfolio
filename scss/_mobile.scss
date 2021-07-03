@@ -115,11 +115,15 @@
         display: flex;
         flex-direction: column;
         grid-gap: 25px;
+
         .item {
           background: none;
+          box-shadow: 0 0 10px 5px rgb(0 0 0 / 50%);
+
           .item-image {
             opacity: 0.15;
           }
+
           .item-text {
             opacity: 1;
             transform: translateY(0);
