@@ -118,7 +118,7 @@
 
         .item {
           background: none;
-          box-shadow: 0 0 10px 5px rgb(0 0 0 / 50%);
+          box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
 
           .item-image {
             opacity: 0.15;

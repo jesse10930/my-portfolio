@@ -105,7 +105,6 @@ a[class^='btn-']:hover {
 .items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   grid-gap: 7px;
   margin-bottom: 15px; }
 
@@ -113,7 +112,7 @@ a[class^='btn-']:hover {
   position: relative;
   background: #ffbc00;
   overflow: hidden;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3); }
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3); }
   .item::after {
     content: '';
     position: absolute;
@@ -327,7 +326,8 @@ img {
   display: grid;
   grid-template-areas: 'name email' 'subject phone' 'message message';
   grid-gap: 1.2rem;
-  margin-bottom: -3rem; }
+  margin-bottom: -3rem;
+  grid-template-columns: 50%; }
   #contact-a .text-fields .name-input {
     grid-area: name; }
   #contact-a .text-fields .subject-input {
@@ -422,7 +422,8 @@ img {
     flex-direction: column;
     grid-gap: 25px; }
     #work-a .items .item {
-      background: none; }
+      background: none;
+      box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5); }
       #work-a .items .item .item-image {
         opacity: 0.15; }
       #work-a .items .item .item-text {
