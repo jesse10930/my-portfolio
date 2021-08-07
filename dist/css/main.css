@@ -383,7 +383,8 @@ img {
         #work-a .item .item-text .item-text-wrap .item-text-title {
           font-size: 1.3rem; }
   #contact-a .text-fields {
-    grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
+    grid-template-areas: 'name' 'subject' 'email' 'phone' 'message';
+    grid-template-columns: auto; }
   #contact-b {
     padding: 6rem 0; }
   #map-container {
